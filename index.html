@@ -1,0 +1,154 @@
+<!--I'll edit content & CSS for better look later. -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="r3x08">
+  <link rel="icon" type="image/x-icon" href="http://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-Clipart.png">
+  <title>Partfolio</title>
+</head>
+
+<style media="screen">
+
+  @keyframes animation_logo {
+    from {opacity: 1%}
+    to {opacity: 50%}
+  }
+
+  @keyframes animation {
+    from {opacity: 50%}
+    to {opacity: 100%}
+  }
+
+  body {
+    color: lightgrey;
+    background-color: black;
+    font-size: 16px;
+    font-family: monospace, serif, sans-serif;
+    word-break: keep-all;
+    animation-name: animation;
+    animation-duration: 1s;
+  }
+
+  ::selection {
+    color: black;
+    background: white;
+  }
+
+  a:link {color: darkgrey;}
+  a:visited {color: darkred;}
+  a:hover {color: white;}
+  a:active {color: red;}
+  a {text-decoration-line: none;}
+
+  .pic {
+    vertical-align: middle;
+    border-radius: 50%;
+    max-width: 100%;
+    filter: grayscale(100%) contrast(110%) brightness(80%);
+    animation-name: animation;
+    animation-duration: 3s;
+  }
+
+  .contact_logo {
+    opacity: 50%;
+    margin: 5px;
+    padding: 10px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    text-decoration: none;
+    animation-name: animation_logo;
+    animation-duration: 10s;
+  }
+
+  .contact_logo:hover {
+    opacity: 100%;
+    filter: brightness(200%);
+  }
+</style>
+
+<!--MAIN-->
+
+<body>
+  <header>
+    <div class="header">
+      <table cellspacing="30">
+        <td>
+          <img class="pic" src="https://avatars.githubusercontent.com/u/109206637?v=4" alt="ME">
+        </td>
+        <td>
+          <p> Founder of <a href="https://instagram.com/cyberdome.tj/">CyberDome</a> start-up group. I've started to learn InfoSec 2 years ago. I work on solving CTF games at <a href="tryhackme.com">TryHackMe</a> and learning web development,
+            programming languages from <a href="https://roadmap.sh">roadmaps</a> also creating simple programs in C/C++, Python, Shell in my spare time. Btw found critical bugs in tajik web app's.</p>
+        </td>
+      </table>
+    </div>
+  </header>
+
+  <main>
+    <div class="about">
+      <h3>What have I learned in these 2 years?</h3>
+      <ul>
+        <b>
+          <li>Networking</li>
+        </b>
+        <ul>
+          <li>TCP/OSI model</li>
+          <li>Protocols</li>
+          <ul>DHCP, HTTP(S), DNS, IMAP(4), POP(3), FTP, SMTP, SNMP, & etc.</ul>
+          <hr>
+        </ul><br />
+        <b>
+          <li>Web</li>
+        </b>
+        <ul>
+          <li>Frontend</li>
+          <li>OWASP TOP 10</li>
+          <ul>LFI, RCE, XSS, XXE, IDOR, Injections, Dorks & etc.</ul>
+          <hr>
+        </ul><br />
+        <b>
+          <li>Others</li>
+        </b>
+        <ul>
+          <li>Graphics</li>
+          <ul>PS, AE, Unity & etc.</ul>
+          <li>Programming Languages </li>
+          <ul>Python, C/C++, PHP, VisualBasic, Bash/Batch.</ul>
+          <li>Tools for <b>Ethical Hacking</b></li>
+          <ul>Nmap, Metasploit, BurpSuite, John, Hydra, LaZagne, NetCat, Mimikatz & etc.</ul>
+          <li>HUM(OS)INT</li>
+          <li>Anonymization</li>
+          <li>Offensive Security</li>
+          <ul>(D)DOS, BruteForce, Phishing, Targeting Malwares/CVE/Payloads & etc. </ul>
+          <hr>
+        </ul><br />
+        <b>
+          <li>Curently learning from these resources:</li>
+        </b>
+        <ul><a href="https://roadmap.sh/">Roadmaps</a></ul>
+        <ul><a href="https://github.com/0xsyr0/OSCP">OSCP</a></ul>
+        <ul><a href="https://tryhackme.com/p/r3x08">TryHackMe</a></ul>
+        <ul><a href="https://developer.mozilla.org/">MDN</a></ul>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <hr class="footer">
+    <section class="footer">
+      <div class="contact" align="center">
+        <a href="https://instagram.com/cyberdome.tj">
+          <img class="contact_logo" src="img/inst.png" alt="Instagram"></a>
+        <a href="https://t.me/n0dric2211">
+          <img class="contact_logo" src="img/tg.png" alt="Telegram"></a>
+        <a href="https://github.com/r3x08">
+          <img class="contact_logo" src="img/git.png" alt="GitHub"></a>
+        <a href="mailto:shadowx000x@protonmail.ch">
+          <img class="contact_logo" src="img/mail.png" alt="Mail"></a>
+      </div>
+    </section>
+  </footer>
+
+</body>
+
+</html>
